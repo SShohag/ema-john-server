@@ -61,7 +61,7 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Heroku project is working properly at last!!!')
 })
 
 app.listen(process.env.PORT ||  port);
